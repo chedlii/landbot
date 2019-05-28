@@ -1,0 +1,196 @@
+*{
+   box-sizing: border-box;
+  font-family: gt_walsheim, Helvetica, sans-serif;
+}
+body{
+  
+  margin-top:150px;
+  margin-bottom:150px;
+  background: linear-gradient(rgba(86, 74, 171,.7), rgba(228, 13, 133, 0.7) );
+  background-size:400% 400%;
+  animation: BackgroundGradient 10s ease infinite;
+  
+}
+
+@keyframes BackgroundGradient{
+  0%{background-position: 50% 0%}
+  50%{background-position: 50% 100%}
+  100%{background-position: 50% 0%}
+
+}
+  
+
+
+.border{
+  border: solid 1px !important;
+}
+
+.main-nav{
+  display:flex; 
+  position:fixed;
+  width:100%;
+  top:0px;
+  left:0px;
+  height:110px;
+}
+
+.main-nav a:hover{
+  opacity:0.5
+  
+}
+.logo{
+    
+  flex:1;
+  display:flex;  
+  align-items:center;
+  
+ 
+}
+.logo h1{
+  color:white;
+  margin-left:50px;
+}
+.navigation-menu{
+  
+  flex:1;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+ul{
+  list-style:none;
+  display:flex;
+  margin-right:40px;
+}
+ul a {
+ text-decoration:none;
+ color:white;
+}
+
+ul li{
+  padding: 0px 3px;
+   text-transform: uppercase;
+  font-weight: bold;
+  
+}
+
+.link-menu {
+  
+  background-color:#ef0075;
+  display:flex;
+  padding: 10px 30px;
+  border-radius:100px;
+   
+}
+.transparent{
+   background-color:transparent;
+  
+}
+
+.border-red{
+  
+  border: solid 1px #ef0075;
+  
+}
+
+.content{
+  
+  display:flex;
+  justify-content:center;
+  
+}
+.section-content{
+  
+
+  
+}
+
+.message{
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 28px 0 rgba(90,60,122,.22);
+  border-radius: 21px;
+  display:inline-block;
+  width:60%;
+  margin-bottom:2px;
+  display:flex;
+  padding:0px 5px;
+
+ 
+  
+}
+.image{
+   border-radius: 21px;
+    margin-bottom:2px;
+  
+}
+
+.small{
+  font-size:10px;
+  color:white;
+}
+.buttoms{
+  
+  display:flex;
+  
+}
+
+.buttom:hover{
+  
+  opacity:0.5;
+  
+}
+
+.buttom{
+  
+  background-color: rgb(238, 0, 118);
+    letter-spacing: -.5px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    cursor: pointer;
+    transition: background-color .25s,border-color .25s,color .75s;
+    padding: 20px 25px;
+    border: solid 1px red;
+    color:white;
+  
+    
+}
+
+.special{
+  
+  color:white;
+  
+}
+
+.special a {
+  
+  color:white;
+}
+
+.footer-nav{
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  width:100%;
+  height:100px;
+  z-index:3;
+  
+  
+}
+
+.content-footer{
+  
+  display:flex;
+  width:40%;
+  height:100%;
+   background-color: rgb(255, 255, 255);
+  box-shadow: 0 1px 28px 0 ;
+  align-items:center;
+  border-radius:5px;
+
+  
+}
+.content-footer p{
+  
+  color :#4b2b67;
+  
+}
